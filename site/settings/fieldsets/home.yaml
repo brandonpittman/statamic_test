@@ -1,0 +1,14 @@
+hide: true
+sections:
+  main:
+    display: Main
+    fields:
+      posts:
+        type: integer
+        display: 'Number of Posts'
+        width: 25
+      content:
+        type: markdown
+        localizable: true
+taxonomies: true
+title: Home

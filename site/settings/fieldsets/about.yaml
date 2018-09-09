@@ -1,0 +1,21 @@
+title: About
+hide: true
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        type: text
+        width: 66
+        localizable: true
+      slug:
+        type: text
+        width: 33
+      content:
+        type: markdown
+        display: Content
+        localizable: true
+      fun_facts:
+        type: list
+        display: 'Fun Facts'
+taxonomies: true

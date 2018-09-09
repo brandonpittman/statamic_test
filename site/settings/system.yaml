@@ -1,0 +1,48 @@
+locales:
+  en:
+    name: English
+    full: en_US
+    url: /
+  ja:
+    full: ja_JP
+    name: Japanese
+    url: /ja
+timezone: Asia/Tokyo
+date_format: 'F jS, Y'
+default_extension: md
+filesystems:
+  content:
+    driver: local
+    root: site/content
+  storage:
+    driver: local
+    root: site/storage
+  users:
+    driver: local
+    root: site/users
+  themes:
+    driver: local
+    root: site/themes
+    url: /site/themes
+app_key: BTjABoMHIS0R2demRXsCLa2UsQLnOOQg
+redactor:
+  -
+    name: Standard
+    settings:
+      buttons:
+        - formatting
+        - bold
+        - italic
+        - link
+        - unorderedlist
+        - orderedlist
+        - html
+  -
+    name: Basic
+    settings:
+      buttons:
+        - bold
+        - italic
+yaml_parser: symfony
+send_powered_by_header: true
+ensure_unique_ids: true
